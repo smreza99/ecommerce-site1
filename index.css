@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.icon{
+    background-color: lightseagreen;
+    border-radius: 47%;
+    padding: 15px;
+    margin: 5px;
+}
+body{
+    font-family: 'Popins', sans-serif;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bold;
+    font-family:  'Carattere', cursive;
+    
+}
+
+
+
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+h6{
+    color: #d8d8d8;
+}
+.navbar{
+    font-size: 16px;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3 ease;
+
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: coral;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0.7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+#home span{
+    color: coral;
+}
+.btn{
+    font-size: 0.9rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.btn:hover{
+    background: cadetblue;
+    border: none;
+}
+.background-image{
+    background-image: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+
+}
+#bar{
+    font-size: 1.5rem;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+    color: black;
+}
+#bar:hover,
+#bar.active{
+    color: #fff;
+
+}
+@media only  screen and (max-width: 992px) {
+    body > nav > div > .btn:hover,
+    body > nav > div > .btn:focus{
+        background-color: #fb77b4;
+    }
+    body > nav > div > .btn:hover,
+    body > nav > div > .btn:focus{
+        color: #fff;
+    }
+    #navbarSupportedContent > ul > {
+        margin: 1rem;
+        justify-content: flex-end;
+        align-items: flex-end;
+        text-align: right;
+    }
+    #navbarSupportedContent > ul > li:nth-child(1) > a{
+        padding: 10px 0;
+    }
+
+    
+}
+/*mobile nav*/
+.navbar-light .navbar-toggler{
+    border: none;
+    outline: none;
+}
+.container .s1{
+    width: 80px;
+    margin-top: 10px;
+    float: left;
+    margin: 10px 5px ;
+    padding: 10px 15px;
+    
+}
+.img-fluid{
+   width: 25%;
+   float: left;
+   justify-content: center;
+   background-position: center;
+   background-repeat: no-repeat;
+
+    
+}
+.text-uppercase{
+    color: wheat;
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    background-size: cover;
+
+}
